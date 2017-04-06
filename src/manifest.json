@@ -1,0 +1,12 @@
+{
+  "name": "Chrome App",
+  "description": "Chrome App",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["entry.bundle.js"]
+    }
+  },
+  "icons": { "16": "chrome-16.png", "128": "chrome-128.png" }
+}
